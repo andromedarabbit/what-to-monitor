@@ -1,6 +1,6 @@
-# what-to-monitor
+# What to monitor
 
-Monitoring guide to DevOps:
+Monitoring guide to DevOps.
 
 ## AWS
 
@@ -8,27 +8,51 @@ Monitoring guide to DevOps:
 
 ## Host
 
-EC2 instances,
+AWS EC2 instances and others.
 
 - [ ] [NTP sync](https://help.datadoghq.com/hc/en-us/articles/204282095-Network-Time-Protocol-NTP-Offset-Issues)
+
 - [ ] Disk usage is too high
+
+  For instance,
+
   - [ ] When over 80% is beging used for web container node
   - [ ] When over 70% is beging used for database storage
-- [ ] Disk IO is too high
-- [ ] CPU usage is over 90% for more than a minute
 
+- [ ] Disk IO is too high
+
+- [ ] CPU utilization is over 90% for more than a minute
 
 ## Load balancer
 
-AWS ELB, Haproxy
+AWS ELB, Haproxy and others.
 
 ![](https://www.evernote.com/l/AAWYHFEJCF1CYLrdmAgKtbfnA1JIr5DQcaMB/image.png)
 
-- [ ] Increased latency between the load balancer and backends
-- [ ] Increased latency between the load balancer and frontends
+- [ ] Increased round-trip latency between the load balancer and backends
 - [ ] Increased error rates including 5xx, 4xx and others
-
+- [ ] Surged requests per second
 
 ## JVM
 
 - [ ] `OutOfMemory error`
+
+## MySQL
+
+- [ ] Too many threads connected
+- [ ] Low key cache hit rate
+- [ ] Low table cache hit rate
+- [ ] Low query cache hit rate
+- [ ] Low buffer pool hit rate
+- [ ] Low index usages
+- [ ] Deadlock detected
+- [ ] Too long queries per second
+- [ ] Too much reads or writes per second
+
+### MySQL Cluster
+
+- [ ] Long slave lag: Slave lag means the delay between Master and Slave in second
+
+### Recommended reads
+
+- [check_mysql_health](https://labs.consol.de/nagios/check_mysql_health/)] is a Nagios plugin to check various parameters of a MySQL database.
