@@ -23,6 +23,16 @@ AWS EC2 instances and others.
 
 - [ ] CPU utilization is over 90% for more than a minute
 
+### Recommended reads
+
+- [Network Time Protocol (NTP) Offset Issues](https://help.datadoghq.com/hc/en-us/articles/204282095-Network-Time-Protocol-NTP-Offset-Issues)
+
+## Process
+
+- [ ] Zombie process is found
+- [ ] Target process is not running
+
+
 ## Load balancer
 
 AWS ELB, Haproxy and others.
@@ -55,4 +65,8 @@ AWS ELB, Haproxy and others.
 
 ### Recommended reads
 
-- [check_mysql_health](https://labs.consol.de/nagios/check_mysql_health/)] is a Nagios plugin to check various parameters of a MySQL database.
+- [check_mysql_health](https://labs.consol.de/nagios/check_mysql_health/) is a Nagios plugin to check various parameters of a MySQL database.
+
+## Message Queue
+
+- [ ] Long replication lag
