@@ -32,7 +32,6 @@ AWS EC2 instances and others.
 - [ ] Zombie process is found
 - [ ] Target process is not running
 
-
 ## Load balancer
 
 AWS ELB, Haproxy and others.
@@ -42,6 +41,11 @@ AWS ELB, Haproxy and others.
 - [ ] Increased round-trip latency between the load balancer and backends
 - [ ] Increased error rates including 5xx, 4xx and others
 - [ ] Surged requests per second
+- [ ] SSL certification will be expired soon
+
+### Recommended reads
+
+- [DataDog SSL Expires Check](https://workshop.avatarnewyork.com/project/datadog-ssl-expires-check/)
 
 ## JVM
 
@@ -55,7 +59,7 @@ AWS ELB, Haproxy and others.
 - [ ] Low query cache hit rate
 - [ ] Low buffer pool hit rate
 - [ ] Low index usages
-- [ ] Deadlock detected
+- [ ] Deadlock is detected
 - [ ] Too long queries per second
 - [ ] Too much reads or writes per second
 
@@ -68,5 +72,7 @@ AWS ELB, Haproxy and others.
 - [check_mysql_health](https://labs.consol.de/nagios/check_mysql_health/) is a Nagios plugin to check various parameters of a MySQL database.
 
 ## Message Queue
+
+### Message Queue Cluster
 
 - [ ] Long replication lag
