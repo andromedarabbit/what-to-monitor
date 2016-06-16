@@ -4,7 +4,7 @@ Monitoring guide to DevOps.
 
 ## AWS
 
-- [ ] Upcoming AWS maintenance event occurs
+- [ ] [Upcoming AWS maintenance event occurs](more_in_depth/upcoming_aws_maintenance_event_occurs.md)
 
 ## Host
 
@@ -36,9 +36,7 @@ AWS EC2 instances and others.
 
 AWS ELB, Haproxy and others.
 
-![](https://www.evernote.com/l/AAWYHFEJCF1CYLrdmAgKtbfnA1JIr5DQcaMB/image.png)
-
-- [ ] Increased round-trip latency between the load balancer and backends
+- [ ] [Increased round-trip latency between the load balancer and backends](more_in_depth/increased_round_trip_latency.md)
 - [ ] Increased error rates including 5xx, 4xx and others
 - [ ] Surged requests per second
 - [ ] SSL certification will be expired soon
