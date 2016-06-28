@@ -16,8 +16,8 @@ AWS EC2 instances and others.
 
   For instance,
 
-  - When over 80% is beging used for web container node
-  - When over 70% is beging used for database storage
+  - When over 80% is being used for web container node
+  - When over 70% is being used for database storage
 
 - Disk IO is too high
 
