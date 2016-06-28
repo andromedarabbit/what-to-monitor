@@ -5,4 +5,5 @@
        * [Contributor Covenant Code of Conduct](code_of_conduct.md)
    * [More in Depth](more_in_depth/README.md)
        * [Increased round-trip latency between the load balancer and backends](more_in_depth/increased_round_trip_latency.md)
+       * Upcoming AWS maintenance event occurs
 
