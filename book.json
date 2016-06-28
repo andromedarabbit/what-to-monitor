@@ -1,13 +1,13 @@
 {
     "plugins": [
         "disqus",
-        "-forkmegithub"
+        "forkmegithub"
     ],
     "pluginsConfig": {
         "disqus": {
             "shortName": "whattomonitor"
         },
-        "-forkmegithub": {
+        "forkmegithub": {
             "url": "https://github.com/andromedarabbit/what-to-monitor",
             "color": "gray"
         }
