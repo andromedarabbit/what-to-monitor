@@ -4,7 +4,7 @@ Monitoring guide to DevOps.
 
 ## AWS
 
-- [ ] Upcoming AWS maintenance event occurs
+- [ ] [Upcoming AWS maintenance event occurs](more_in_depth/upcoming_aws_maintenance_event.md)
 
 ## Host
 
