@@ -38,7 +38,7 @@ AWS ELB, Haproxy and others.
 
 - [Increased round-trip latency between the load balancer and backends](more_in_depth/increased_round_trip_latency.md)
 - Increased error rates including 5xx, 4xx and others
-- Surged requests per second
+- [Surged requests per second](more_in_depth/surged_requests.md)
 - SSL certification will be expired soon
 
 ### Recommended reads
