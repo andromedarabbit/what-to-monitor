@@ -4,5 +4,5 @@
 
 ![](images/increased_round_trip_latency.png)
 ## Latency is recovered
-
+![](images/improved_latency.png)
 
