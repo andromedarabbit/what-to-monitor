@@ -6,5 +6,5 @@
    * [More in Depth](more_in_depth/README.md)
        * [Increased round-trip latency between the load balancer and backends](more_in_depth/increased_round_trip_latency.md)
        * [Upcoming AWS maintenance event occurs](more_in_depth/upcoming_aws_maintenance_event_occurs.md)
-       * Surged requests per second
+       * [Surged requests per second](surged_requests.md)
 
