@@ -1,2 +1,0 @@
-# Surged requests per second
-
