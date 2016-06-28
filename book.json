@@ -1,7 +1,8 @@
 {
     "plugins": [
         "disqus",
-        "forkmegithub"
+        "forkmegithub",
+        "todo"
     ],
     "pluginsConfig": {
         "disqus": {
