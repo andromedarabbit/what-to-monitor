@@ -3,5 +3,5 @@
 * [Introduction](README.md)
    * [Contributing](contributing.md)
        * [Contributor Covenant Code of Conduct](code_of_conduct.md)
-   * More in Depth
+   * [More in Depth](more_in_depth/README.md)
 
