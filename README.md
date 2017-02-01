@@ -75,8 +75,11 @@ AWS ELB, Haproxy and others.
 ### Message Queue Cluster
 
 * Long replication lag
+* [Unclean Leader Election](https://www.datadoghq.com/blog/monitoring-kafka-performance-metrics/)
+
+  ![](assets/unclean_leader_elections.png)
+
 
 ## License
 
 To the extent possible under law, [Jaehoon Choi](https://andromedarabbit.net) has waived all copyright and related or neighboring rights to this work.
-
